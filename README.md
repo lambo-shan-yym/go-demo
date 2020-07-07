@@ -65,14 +65,14 @@
 
 ## 前端效果
 ### 登录界面  
-![image](https://git.garena.com/yangming.yang/entry_task/raw/dev/doc/%E5%9B%BE%E7%89%87/login.png?inline=false)
+![image](https://github.com/lambo-shan-yym/go-entry-task/blob/master/doc/%E5%9B%BE%E7%89%87/login.png)
 
 ### 登录失败提示
-![image](https://git.garena.com/yangming.yang/entry_task/raw/dev/doc/%E5%9B%BE%E7%89%87/login_error.png?inline=false)
+![image](https://github.com/lambo-shan-yym/go-entry-task/blob/master/doc/%E5%9B%BE%E7%89%87/login_error.png)
 
 ### 个人信息页面
-![image](https://git.garena.com/yangming.yang/entry_task/raw/dev/doc/%E5%9B%BE%E7%89%87/user_info.png?inline=false)
+![image](https://github.com/lambo-shan-yym/go-entry-task/blob/master/doc/%E5%9B%BE%E7%89%87/user_info.png)
 ### 修改个人基本信息成功提示
-![image](https://git.garena.com/yangming.yang/entry_task/raw/dev/doc/%E5%9B%BE%E7%89%87/update_user_info_success.png?inline=false)
+![image](https://github.com/lambo-shan-yym/go-entry-task/blob/master/doc/%E5%9B%BE%E7%89%87/update_user_info_success.png)
 ### 修改个人头像成功提示
-![image](https://git.garena.com/yangming.yang/entry_task/raw/dev/doc/%E5%9B%BE%E7%89%87/update_user_profile_picture_success.png?inline=false)
+![image](https://github.com/lambo-shan-yym/go-entry-task/blob/master/doc/%E5%9B%BE%E7%89%87/update_user_profile_picture_success.png)
