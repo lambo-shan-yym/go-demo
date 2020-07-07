@@ -1,0 +1,46 @@
+syntax = "proto3";
+
+package proto;
+
+message UserLoginRequest{
+    string username =1;
+    string password = 2;
+}
+
+message UserLoginResponse{
+    uint32 code =1;
+    string msg = 2;
+
+
+
+}
+message UserInfoResponse{
+    uint32 code =1;
+    string msg = 2;
+    string username=3;
+    string nickname=4;
+    string profilePicture = 5;
+}
+
+message EditUserInfoRequest{
+    string nickname =1;
+    string profilePicture=2;
+    string username =3;
+}
+
+
+message CommonRequest{
+    string username=1;
+}
+
+message CommonResponse{
+     uint32 code =1;
+     string msg = 2;
+}
+
+service UserService{
+    rpc login(UserLoginRequest) returns (UserLoginResponse){}
+    rpc logout(CommonRequest) returns (CommonResponse){}
+    rpc getUserInfo(CommonRequest) returns (UserInfoResponse){}
+    rpc editUserInfo(EditUserInfoRequest) returns (CommonResponse){}
+}
